@@ -1,0 +1,18 @@
+#spring:
+#  cloud:
+#    aws:
+#      sqs:
+#        endpoint: http://localhost:4566 # Use isso para LocalStack, remova para AWS real
+#        region: us-east-1
+#      credentials:
+#        access-key: fake
+#        secret-key: fake
+#spring:
+#  autoconfigure:
+#    exclude:
+#      - org.springframework.cloud.aws.autoconfigure.context.ContextStackAutoConfiguration
+#      - org.springframework.cloud.aws.autoconfigure.context.ContextRegionProviderAutoConfiguration
+#spring:
+#  autoconfigure:
+#    exclude:
+#      - org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
